@@ -1,0 +1,19 @@
+[project]
+name = "csw"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "KaiRev0",email = "kairev0@outlook.com"}
+]
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "django (>=5.2.9,<6.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "csw", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
